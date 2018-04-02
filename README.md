@@ -11,6 +11,8 @@ Programming Environment: Python Jupyter Notebook
 
 ## Parts:
 
-(Each part should be run sequentially) GITHUB doeanot provide any way to edit Python Jupyter Notebooks, so I am commiting different notebooks with different data cleaning steps.
 
 ### 1. Removing unwanted columns from the raw data(.csv file)
+### 2. Data Cleaning Step : Setting up key Index for the Dataframe
+
+It is important to have a primary key column in your dataset here which is 'identifier' field. Let check if identifier has all unique values.
